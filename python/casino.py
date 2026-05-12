@@ -53,6 +53,7 @@ while status:
         if player_lives == 0:
             print(":::GAME OVER:::")
             break
+        
 
     if(dices [0] == 6 and dices[1] == 6) or (dices [0] == 1 and dices [1] == 1):
         player_lives+=1
